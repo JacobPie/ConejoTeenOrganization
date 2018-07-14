@@ -1,0 +1,43 @@
+h1 {
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 2%;
+}
+
+.person {
+  border: solid 2px #0D0D0D;
+  width: 45vw;
+  margin: auto;
+  display: block;
+  height: auto;
+}
+
+.img {
+  width: 15vw;
+  height: 30vh;
+}
+
+main {
+  height: 100vh;
+}
+
+.name-img {
+  display: inline;
+  float: left;
+}
+
+.contact-info {
+  display: inline;
+  float: right;
+  text-align: left;
+}
+
+.name-img,
+.contact-info {
+  width: 20vw;
+}
+
+.info {
+  font-size: 23px;
+  font-weight: bold;
+}

@@ -1,0 +1,132 @@
+{
+  "short_name": "Conejo Teen"
+}
+
+main {
+  text-align: center;
+  background-color: #FFF;
+  margin-top: -2%;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0px 0px 0px 0px;
+  color: #0D0D0D;
+}
+
+.topbar,
+nav {
+  background-color: #FFF;
+}
+
+h1,
+h2 {
+  font-family: 'cabin', sans-serif;
+}
+
+p,
+a,
+button {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* Top Bar */
+
+#logo-link {
+  color: #0D0D0D;
+}
+
+#logo-link:visited {
+  color: #0D0D0D;
+}
+
+#temp-logo,
+#donate-top {
+  display: inline-block;
+}
+
+#donate-top {
+  float: right;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: #0000FF;
+  color: #FFF;
+  cursor: pointer;
+  height: 12.8vh;
+}
+
+#donate-top:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+.donate-name {
+  padding-top: 3.5vh;
+  background-color: #0000FF;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: #FFF;
+}
+
+#temp-logo {
+  padding-top: 0vh;
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+.topbar {
+  display: block;
+  border-bottom: solid 1px #0000FF;
+}
+
+/* Nav Bar */
+
+nav {
+  text-align: center;
+  height: 7vh;
+}
+
+.link,
+.link:visited {
+  color: #0D0D0D;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.8% 3% 0 3%;
+  margin: auto;
+  height: auto;
+}
+
+.link:hover,
+#logo-link:hover {
+  color: #000;
+  border-bottom: solid 1px #000;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3333FF;
+  margin-top: -2%;
+}
+
+#copyright,
+#my-credit,
+.me {
+  color: #FFF;
+}
+
+#copyright {
+  padding-top: 1%;
+}
+
+.me:visited {
+  color: #FFF;
+}

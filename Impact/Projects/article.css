@@ -1,0 +1,66 @@
+h1 {
+  text-decoration: underline;
+  padding-top: 1.5%;
+  font-size: 30px;
+}
+
+.desc {
+  text-align: justify;
+  text-indent: 2%;
+}
+
+.desc,
+#ad,
+#donate-p {
+  font-size: 22px;
+  width: 40vw;
+  margin: auto;
+}
+
+#ad {
+  margin-top: 1.5%;
+}
+
+#donate {
+  margin-top: 1%;
+}
+
+#donate-button {
+  background-color: #FFF;
+  color: #0D0D0D;
+  font-size: 22px;
+  border: solid 2px #0D0D0D;
+  height: 9vh;
+  border-radius: 2%;
+  margin-top: 1.5%;
+}
+
+#donate-button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 27px;
+}
+
+.img {
+  width: 25vw;
+  height: 50vh;
+  margin: 1% 1% 2% 1%;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  box-shadow: 0 0 10px gray;
+}
+
+.row {
+  margin-bottom: 2%;
+}
+
+#web:visited,
+#web {
+  color: black;
+}

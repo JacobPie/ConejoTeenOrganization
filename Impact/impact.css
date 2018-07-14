@@ -1,0 +1,70 @@
+main {
+  text-align: center;
+  background-color: #FFF;
+  margin-top: -1.5%;
+}
+
+/* Heading attributes */
+
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  padding-top: 1.5%;
+}
+
+#p {
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* Image hover attributes */
+
+#images {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+  margin: 1%;
+  color: #0D0D0D;
+}
+
+.item:hover img {
+  filter: blur(1.5px) brightness(60%);
+  transition: 0.3s;
+  box-shadow: 0 0 10px gray;
+}
+
+.item :not(img) {
+  position: absolute;
+  top: 37%;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.item:hover :not(img) {
+  opacity: 1;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.item {
+  margin-bottom: 3%;
+}
+
+.img {
+  border: solid 1px #0D0D0D;
+}

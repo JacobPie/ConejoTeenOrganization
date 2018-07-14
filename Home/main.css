@@ -1,0 +1,131 @@
+/* First Page */
+
+#home-screen {
+  background-image: url(Images/Background-3.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #0D0D0D;
+}
+
+.text {
+  padding-top: 30vh;
+}
+
+#h1 {
+  border: solid 1vh #FFF;
+  font-size: 45px;
+  width: 40vw;
+  margin: auto;
+}
+
+h1,
+#h1-desc {
+  color: #FFF;
+}
+
+#h1-desc {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#donate-home {
+  background-color: #0000DD;
+  color: #FFF;
+  font-size: 22px;
+  border: none;
+  height: 9vh;
+  border-radius: 2%;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+#donate-home:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+#donate-home em {
+  font-size: 18px;
+}
+
+.donate-home-a:hover,
+#donate-home:hover {
+  cursor: pointer;
+}
+
+nav {
+  height: 11vh;
+}
+
+/* Our Mission */
+
+#mission {
+  background-color: #F2F2F2;
+  margin-top: -5%;
+  border-top: solid 1px #0D0D0D;
+  color: #0D0D0D;
+  height: 60vh;
+}
+
+#mission-h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#mission-statement {
+  width: 40vw;
+  font-size: 22px;
+  margin: auto;
+}
+
+/* Gallery */
+
+#gallery {
+  background-color: #E6E6E6;
+  color: #0D0D0D;
+  margin-top: -2.5%;
+  height: 60vh;
+}
+
+#images {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.desc {
+  display: inline-block;
+  position: relative;
+  margin: 1%;
+  color: #FFF;
+}
+
+.desc:hover img {
+  filter: blur(1.5px) brightness(60%);
+  transition: 0.3s;
+  box-shadow: 0 0 10px gray;
+}
+
+.desc :not(img) {
+  position: absolute;
+  top: 37%;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.desc:hover :not(img) {
+  opacity: 1;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
